@@ -43,15 +43,15 @@ class FixedQueue:
 
     def peekAll(self):
         displayDict = {
-            "Front Pointer": self.frontPointer,
-            "Rear Pointer": self.rearPointer,
-            "Current Storage": self.storage,
-            "Current Size": self.queueSize,
-            "Next dequeue": self.storage[self.frontPointer]
+            "Front Pointer: ": self.frontPointer,
+            "Rear Pointer: ": self.rearPointer,
+            "Current Storage: ": self.storage,
+            "Current Size: ": self.queueSize,
+            "Next dequeue: ": self.storage[self.frontPointer]
         }
 
         for key, value in displayDict.items():
-            print(key, ":", value)
+            print(key, value)
 
 
 class QueueError(Exception):
