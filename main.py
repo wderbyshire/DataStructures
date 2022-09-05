@@ -1,4 +1,7 @@
+# Procedural Queue
+# ================
 
+# Queue creation
 simpleQ = []
 
 # Enqueue
