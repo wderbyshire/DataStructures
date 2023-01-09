@@ -3,9 +3,16 @@
 def say_hello():
     print("Hello!")
 
+
 def say_goodbye():
     print("goodbye!")
 # Queue creation
+
+
+def say_hello_again():
+    print("Hello again!")
+
+
 simpleQ = []
 
 # Enqueue
