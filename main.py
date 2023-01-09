@@ -1,5 +1,8 @@
 # Procedural Queue
 # ================
+def say_hello():
+    print("Hello!")
+
 
 # Queue creation
 simpleQ = []
