@@ -3,7 +3,8 @@
 def say_hello():
     print("Hello!")
 
-
+def say_goodbye():
+    print("goodbye!")
 # Queue creation
 simpleQ = []
 
